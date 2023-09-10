@@ -1,0 +1,128 @@
+html ,body {
+    margin:0;
+    padding:0;
+    background-color: #ececec;
+    min-width: 100%;
+    min-height: 100vh;
+    max-width: max-content;
+    max-height: max-content;
+    font-family: 'TH Sarabun New';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+header,footer {
+    height: 50px !important;
+}
+p {
+    margin: 0%;
+}
+table,tr,td,th{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.iconBackGound {
+    position: relative;
+    width: 300px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+}
+.textPeptideData {
+    position: relative;
+    font-family: 'Agency FB';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-decoration-line: underline;
+}
+
+.buttonMain {
+    width: 300px;
+    height: 75px;
+}
+
+.buttonSmall {
+    width: 200px;
+    height: 50px;
+    border: none;
+}
+
+.buttonGlow:hover , .buttonGlow:active{
+    background-color: #00685F;
+    color: #ececec;
+}
+
+.center {
+    align-items: center;
+    justify-content: center;
+}
+ol {
+    margin: 0;
+}
+
+input[type=submit] {
+    padding: 0;
+    border: none;
+    font-family: 'TH Sarabun New';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.offcanvas,.offcanvas-body,.offcanvas-header{
+    width: 300px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/*if width less than 992px show buttonmenu hide nevbar*/
+.buttonMediaMain {
+    display: block !important;
+}
+.nevbarMedia {
+    display: none !important;
+}
+
+/*else more than 992px show nevbar hide buttonmenu*/
+@media screen and (min-width: 992px) { 
+    .buttonMediaMain {
+        display: none !important;
+    }
+    .nevbarMedia {
+        display: flex !important;
+    }
+}
+
+.dropdown-toggle::after {
+    display: inline;
+    float: right;
+    text-align: center;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+#mytablesearch_length ,#mytablesearch_info{
+    position: sticky;
+    left: 0;
+}
+
+#mytablesearch_filter ,#mytablesearch_paginate{
+    width: 100%;
+    position: sticky;
+    left: 0;
+    right: 0;
+}
+
+#mytablesearch_wrapper {
+    overflow: auto;
+}
+
+@media screen and (min-width: 992px) { 
+    #mytablesearch_filter ,#mytablesearch_paginate{
+        width: 100%;
+    }
+}

@@ -1,0 +1,24 @@
+.colorBlack {
+    color: black;
+}
+.colorWhite {
+    color: #ececec;
+}
+.colorGreen {
+    color: #00685F;
+}
+.colorGray {
+    color: #8C8C8C;
+}
+
+
+
+.colorBackGreen {
+    background-color: #00685F;
+}
+.colorBackWhite {
+    background-color: #ececec;
+}
+.colorBackGray {
+    background-color: #8C8C8C;
+}
