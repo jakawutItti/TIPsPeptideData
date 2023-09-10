@@ -23,7 +23,8 @@
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/jquery-3.7.1.min.js"></script>
     <script src="js/datatables.min.js"></script>
-    <script src="js/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    <script src="js/index.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PEPTIDE DATA</title>
 </head>

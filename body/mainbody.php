@@ -1,4 +1,4 @@
-<!-- <?php
+<?php
     global $mainStrMain,$mainStrKey,$mainLi1,$mainLi2,$mainStrDes,$mainStrH1,$mainStrH2,$mainArrCol,$mainArrDes;
 ?>
 
@@ -26,4 +26,12 @@
         }
     ?>
     </tbody>
-</table> -->
+</table>
+<div class="center">
+    <canvas id="chartPlaceCon" style="width:100%;max-height: 500px;"></canvas>
+    <canvas id="chartPlaceYear" style="width:100%;max-height: 500px;"></canvas>
+    <canvas id="createChartLen" style="width:100%;max-height: 500px;"></canvas>
+    <canvas id="chartPlaceSou" style="width:100%;max-height: 500px;"></canvas>
+</div>
+
+ 
