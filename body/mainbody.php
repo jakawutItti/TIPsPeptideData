@@ -27,11 +27,15 @@
     ?>
     </tbody>
 </table>
-<div class="center">
-    <canvas id="chartPlaceCon" style="width:100%;max-height: 500px;"></canvas>
-    <canvas id="chartPlaceYear" style="width:100%;max-height: 500px;"></canvas>
-    <canvas id="createChartLen" style="width:100%;max-height: 500px;"></canvas>
-    <canvas id="chartPlaceSou" style="width:100%;max-height: 500px;"></canvas>
+<div class="container">
+    <div class="row">
+        <canvas id="chartPlaceCon" class="col" style="max-width: 50%;max-height: 250px;"></canvas>
+        <canvas id="chartPlaceYear" class="col" style="max-width: 50%;max-height: 250px;"></canvas>
+        <canvas id="createChartLen" class="col" style="max-width: 50%;max-height: 250px;"></canvas>
+        <canvas id="chartPlaceSou" class="col" style="max-width: 50%;max-height: 250px;"></canvas>
+        <canvas id="chartPlaceSub" class="col" style="max-width: 50%;max-height: 250px;"></canvas>
+        <canvas id="chartPlaceAut" class="col" style="max-width: 50%;max-height: 250px;"></canvas>
+    </div>
 </div>
 
  
